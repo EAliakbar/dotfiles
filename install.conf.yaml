@@ -1,0 +1,9 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- link:
+    ~/.config/git/:
+      glob: true
+      path: gitconf/*
