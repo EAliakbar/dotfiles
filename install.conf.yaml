@@ -11,3 +11,10 @@
     ~/.config/ghostty:
       path: ghostty
       force: true
+
+    # VS Code MacOS
+    ~/Library/Application Support/Code/User:
+      if: '[ `uname` = Darwin ]'
+      glob: true
+      path: vscode/macos/*.json
+      force: true
