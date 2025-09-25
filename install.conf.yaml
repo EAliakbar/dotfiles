@@ -7,3 +7,7 @@
     ~/.config/git/:
       glob: true
       path: gitconf/*
+
+    ~/.config/ghostty:
+      path: ghostty
+      force: true

@@ -1,0 +1,32 @@
+theme = nightfox
+
+# Fonts
+font-family = "Hack Nerd Font Mono"
+
+# Window UI
+macos-titlebar-style = tabs
+copy-on-select = true
+quick-terminal-animation-duration = 0.05
+
+# Security
+macos-auto-secure-input = true
+
+# Icon
+macos-icon = chalkboard
+# macos-icon = custom-style
+# macos-icon-frame = plastic
+# macos-icon-ghost-color = 0B3A42
+# macos-icon-screen-color = 20C5BA
+
+# Fix Terminfo in first ssh, fallback if error
+shell-integration-features = ssh-terminfo,ssh-env
+
+###############
+# Keybindings #
+###############
+
+## Quick Terminal
+keybind = global:option+space=toggle_quick_terminal
+
+## Command Pallet
+keybind = super+p=toggle_command_palette
