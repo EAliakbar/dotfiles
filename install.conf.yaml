@@ -12,6 +12,10 @@
       path: ghostty
       force: true
 
+    ~/.oh-my-zsh/custom:
+      glob: true
+      path: zsh/*.zsh
+
     # VS Code MacOS
     ~/Library/Application Support/Code/User:
       if: '[ `uname` = Darwin ]'
