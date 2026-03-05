@@ -2,3 +2,7 @@
 [user]
 	name = Ehsan Aliakbar
 	email = 17617218+EAliakbar@users.noreply.github.com
+
+# Fix claude code trying to access ssh agent periodically
+[url "https://github.com/anthropics/"]
+	insteadOf = ssh://git@github.com/anthropics/
