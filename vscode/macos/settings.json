@@ -1,5 +1,7 @@
 {
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
-    "mise.checkForNewMiseVersion": false
+    "mise.checkForNewMiseVersion": false,
+    "claudeCode.preferredLocation": "panel",
+    "chat.disableAIFeatures": true
 }
