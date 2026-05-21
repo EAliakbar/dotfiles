@@ -6,3 +6,5 @@
 # Fix claude code trying to access ssh agent periodically
 [url "https://github.com/anthropics/"]
 	insteadOf = ssh://git@github.com/anthropics/
+[fetch]
+	prune = true
