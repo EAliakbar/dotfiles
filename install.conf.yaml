@@ -12,6 +12,10 @@
       path: ghostty
       force: true
 
+    ~/.config/opencode/agents/:
+      glob: true
+      path: opencode/agents/*
+
     ~/.oh-my-zsh/custom:
       glob: true
       path: zsh/*.zsh
