@@ -8,3 +8,9 @@
 	insteadOf = ssh://git@github.com/anthropics/
 [fetch]
 	prune = true
+[pull]
+	ff = only
+[push]
+	useForceIfIncludes = true
+[alias]
+	pushf = push --force-with-lease
